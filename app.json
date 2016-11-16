@@ -1,0 +1,1 @@
+{"name":"Must See Movies JD","repository":"https://github.com/jjduffy333/must_see_movies_jd","env":{"CLOUDINARY_CLOUD_NAME":{"required":true},"CLOUDINARY_API_KEY":{"required":true},"CLOUDINARY_API_SECRET":{"required":true},"ROLLBAR_ACCESS_TOKEN":{"required":true}}}
