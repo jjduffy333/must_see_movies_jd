@@ -114,6 +114,14 @@
       <!-- Label and input for director_id -->
       <input type="hidden" name="director_id" value="<%= @director.id %>">
 
+      <!-- Label and input for best_picture -->
+      <div class="checkbox">
+        <label for="best_picture">
+          <input type="checkbox" id="best_picture" name="best_picture" value="1" <%= "checked" if @movie.best_picture %>>
+          Best picture
+        </label>
+      </div>
+
       <button class="btn btn-block btn-success">
         Create Movie
       </button>

@@ -7,6 +7,7 @@ class CreateMovies < ActiveRecord::Migration
       t.string :description
       t.string :image_url
       t.integer :director_id
+      t.boolean :best_picture
 
       t.timestamps
 
