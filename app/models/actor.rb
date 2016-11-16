@@ -1,4 +1,6 @@
 class Actor < ApplicationRecord
+  mount_uploader :image_url, ImageUrlUploader
+
   # Direct associations
 
   has_many   :characters,
